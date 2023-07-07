@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BESHY CONVERTER</title>
+    <link rel="stylesheet" href="beshy.css">
+</head>
+<body>
+    <audio src="audio.mp3" loop autoplay></audio>
+
+    <div class="emoji-animation">
+        <img src="tumbling-emoji.png" alt="Tumbling Emoji">
+    </div>
+
+    <div class="container">
+        <h1>BAKIT UMIIKOT ANG BESHY KO?</h1>
+        
+        <div class="input-container">
+            <input type="text" id="inputTxt" placeholder="Enter your texts" oninput="beshy()">
+            <div class="button-container">
+                <button onclick="play()">Play</button>
+                <button onclick="copyText()">Copy</button>
+            </div>
+        </div>
+        
+        <div class="output-container">
+            <p id="outputTxt"></p>
+        </div>
+        
+        <p id="responseMsg"></p>
+        
+        <div class="credits-container">
+            <p>Created By: Dev Earl</p>
+        </div>
+    </div>
+
+    <script src="beshy.js"></script>
+</body>
+</html>
