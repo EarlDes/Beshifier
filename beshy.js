@@ -28,12 +28,12 @@ function copyText() {
     responseMsg.innerText = "Copy successful!";
     setTimeout(function() {
         responseMsg.innerText = "";
-    }, 2000); // Clear the response message after 2 seconds
+    }, 2000);
 }
 
 var emojiAnimation = document.querySelector('.emoji-animation');
 
-var numEmoji = 30;
+var numEmoji = 5;
 
 for (var i = 0; i < numEmoji; i++) {
     var img = document.createElement('img');
@@ -45,7 +45,7 @@ for (var i = 0; i < numEmoji; i++) {
     emojiAnimation.appendChild(img);
 }
 
-var backgroundMusic = new Audio("audio.mp3"); // Replace "background_music.mp3" with your background music file source
+var backgroundMusic = new Audio("audio.mp3");
 backgroundMusic.loop = true;
 
 document.addEventListener("DOMContentLoaded", function() {
