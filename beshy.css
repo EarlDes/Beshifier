@@ -37,7 +37,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 40%;
+    height: 20%;
     animation-name: tumble;
     animation-duration: 3s;
     animation-timing-function: linear;
